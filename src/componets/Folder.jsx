@@ -27,7 +27,7 @@ const Folder = ({ fileExplorerData, InsertNode }) => {
   if (fileExplorerData.isFolder) {
     return (
       <div className="m-4 cursor-pointer">
-        <div className=" flex items-center justify-start gap-4">
+        <div className=" flex items-center justify-start gap-4 ">
           <span onClick={() => setExpand(!expand)}>
             📁 {fileExplorerData.name}
           </span>
